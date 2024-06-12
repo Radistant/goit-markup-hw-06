@@ -45,15 +45,15 @@
 						</li>
 					</ul>
 				</address>
-				<button class="burger" type="button">
+				<button class="burger" type="button" id="burgerButton">
 					<svg width="24" height="24">
 						<use href="./images/icons.svg#icon-burger"></use>
 					</svg>
 				</button>
 			</div>
-			<div class="mob-menu">
+			<div class="mob-menu" id="mobileMenu">
 				<div class="mob-menu-upper">
-					<button class="mob-menu-button" type="button">
+					<button class="mob-menu-button" type="button" id="closeMenuButton">
 						<svg class="mob-button-icon" width="8" height="8">
 							<use href="./images/icons.svg#icon-exit-btn"></use>
 						</svg>
@@ -122,6 +122,7 @@
 				</div>
 			</div>
 		</header>
+
 		<main>
 			<section class="solutions">
 				<div class="container">
@@ -473,7 +474,7 @@
 									<source
 										srcset="
 											./images/phone-img/meditation-mob-app-x2.jpg 2x,
-											./images/phone-img/meditation-mob-app-x1.jpg 1x
+											./images/phone-img/meditation-mob-x1.jpg     1x
 										"
 										media="(min-width: 320px)"
 									/>
@@ -694,9 +695,9 @@
 				</div>
 			</div>
 		</footer>
-		<div class="modal-overlay">
+		<div class="modal-overlay" id="modalOverlay">
 			<div class="modal">
-				<button class="form-exit-decor" type="button">
+				<button class="form-exit-decor" type="button" id="closeModal">
 					<svg class="form-decor-icon" width="8" height="8">
 						<use href="./images/icons.svg#icon-exit-btn"></use>
 					</svg>
@@ -776,6 +777,6 @@
 				</form>
 			</div>
 		</div>
+		<script src="./main.js"></script>
 	</body>
-	<script src="./main.js"></script>
 </html>
