@@ -799,7 +799,7 @@ img {
     max-width: 768px;
   }
   .burger {
-    display: block;
+    display: none;
   }
   .mob-menu {
     display: none;
